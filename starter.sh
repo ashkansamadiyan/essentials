@@ -26,7 +26,7 @@ EOF
 
 # Step 3: Connect to the US DE server using ExpressVPN
 echo "Connecting to US DE server using ExpressVPN..."
-expressvpn connect usde
+expressvpn connect usny
 
 # Step 4: Remove existing Docker-related packages
 echo "Removing any pre-existing Docker packages..."
