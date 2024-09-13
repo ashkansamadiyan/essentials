@@ -20,7 +20,7 @@ echo "Activating ExpressVPN using provided activation code..."
 expect <<EOF
 spawn expressvpn activate
 expect "Enter activation code:"
-send "E8JVUF99EVNKEXT2ZM7R955\r"
+send "000000\r"
 expect eof
 EOF
 
